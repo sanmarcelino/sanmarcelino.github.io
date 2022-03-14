@@ -1,0 +1,37 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+
+  /* DEVELOPERS */
+  Back End Developer : 
+  Location: Quezon City, Philippines
+
+  Front End Developer : Kel
+  Location: Quezon City, Philippines
+
+  /* CREATIVES */
+  Art Director : <name>
+  Location: Quezon City, Philippines
+
+  /* STRATEGIST */
+  Strategist : <name>
+  Location: Quezon City, Philippines
+
+  /* PROJECT MANAGER */
+  Project Manager : <name>
+  Location: Quezon City, Philippines
+
+  /* QUALITY ASSURANCE */
+  Quality Assurance Specialist : <name>
+  Location: Quezon City, Philippines
+
+  /* ACCOUNT MANAGER */
+  Account Officer : <name>
+  Location: Quezon City, Philippines
+
+/* SITE */
+  Last update: 2022/03/01
+  Standards: HTML5, CSS3, Javascript
+  Components: Modernizr, jQuery, Normalize.css, Progressive Internet Explorer, PictureFill
+  IDE: VS Code, Photoshop

@@ -1,0 +1,180 @@
+/////////////////////
+///// Transitions ///
+/////////////////////
+
+.transition {
+  -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+  transition: all .5s ease;
+  &.fast {
+    -webkit-transition: all .35s ease;
+      -moz-transition: all .35s ease;
+      -o-transition: all .35s ease;
+    transition: all .35s ease;
+  }
+}
+
+@keyframes fadein { 
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.8, 1.8, 1.8);
+    transform: scale3d(1.8, 1.8, 1.8);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+@-webkit-keyframes colorChange {
+  0% { 
+    color: #fff;
+    text-shadow: 0 0 0.2em #000;
+  }
+  100% { 
+    color: #ffc400;
+    text-shadow: 0 0 0.5em #da9c2a;
+  }
+}
+
+@-webkit-keyframes fade-in-pulse-08 {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(.8);
+    transform: scale(.8);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100%, 70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+}
+
+@keyframes fade-in-pulse-08 {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(.8);
+    transform: scale(.8);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100%, 70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+
+@keyframes bgpos_left { 
+  from { background-position: top left; }
+  to   { background-position: 100px left; }
+}
+
+/* Firefox */
+@-moz-keyframes bgpos_left {
+  from { background-position: top left; }
+  to   { background-position: 100px left; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes bgpos_left {
+  from { background-position: top left; }
+  to   { background-position: 100px left; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes bgpos_left {
+  from { background-position: top left; }
+  to   { background-position: 100px left; }
+}
+
+@keyframes pulsate {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+@-webkit-keyframes pulsate {
+  0% { -webkit-transform: scale(1); }
+  50% { -webkit-transform: scale(1.1); }
+  100% { -webkit-transform: scale(1); }
+}
+@-moz-keyframes pulsate {
+  0% { -moz-transform: scale(1); }
+  50% { -moz-transform: scale(1.1); }
+  100% { -moz-transform: scale(1); }  
+}
+@-ms-keyframes pulsate {
+  0% { -ms-transform: scale(1); }
+  50% { -ms-transform: scale(1.1); }
+  100% { -ms-transform: scale(1); }  
+}
+@-o-keyframes pulsate { 
+  0% { -o-transform: scale(1); }
+  50% { -o-transform: scale(1.1); }
+  100% { -o-transform: scale(1); }  
+}
